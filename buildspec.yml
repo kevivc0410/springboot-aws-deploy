@@ -27,7 +27,6 @@ phases:
     - echo $DOCKER_CONTAINER_NAME
     - echo priting imagedefinitions.json
     - cat imagedefinitions.json 
-    - mv target/bike-service-0.0.1-SNAPSHOT.war bike-service-0.0.1-SNAPSHOT.war
 artifacts:
   files:
      - imagedefinitions.json
